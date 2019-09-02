@@ -345,7 +345,7 @@ h2::after{
     }
     #logo{
         /* font-size: 10px; */
-        display: none;
+/*         display: none; */
     }
     .logo img{
         display: none;
