@@ -2,10 +2,11 @@ html,body{
     margin: 0;
     padding: 0;
     width: 100%;
-    
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Quicksand';
+    
 }
 header{
     width: 100%;
@@ -14,6 +15,8 @@ header{
     /* background: url(../img.jpg) no-repeat 50% 50%; */
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+
 }
 .content{
     width: 100%;
@@ -41,6 +44,7 @@ header{
 nav{
     position:fixed;
     width: 100%;
+    z-index: 999;
 }
 nav ul{
     width: 100%;
@@ -331,6 +335,9 @@ h2::after{
 
 /* responsive section */
 @media(max-width:500px){
+    header{
+        background-position:center;
+    }
     .logo{
         position: fixed;
         top: 0;
